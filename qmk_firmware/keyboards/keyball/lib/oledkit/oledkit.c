@@ -22,7 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 __attribute__((weak)) void oledkit_render_logo_user(void) {
     // Require `OLED_FONT_H "keyboards/keyball/lib/logofont/logofont.c"`
-    char ch = 0x80;
+    //char ch = 0x80;
     for (int y = 0; y < 3; y++) {
         oled_write_P(PSTR("ao"), false);
         for (int x = 0; x < 16; x++) {
