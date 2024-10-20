@@ -26,7 +26,7 @@ __attribute__((weak)) void oledkit_render_logo_user(void) {
     for (int y = 0; y < 3; y++) {
         oled_write_P(PSTR("ao"), false);
         for (int x = 0; x < 16; x++) {
-            oled_write_char(ch++, false);
+            //oled_write_char(ch++, false);
         }
         oled_advance_page(false);
     }
